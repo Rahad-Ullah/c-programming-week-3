@@ -1,0 +1,1 @@
+a[i + strlen(a)] = b[i];
