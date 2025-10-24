@@ -24,6 +24,10 @@ int main()
             printf("B is smaller");
             break;
         }
+        else if (a[i] == b[i])
+        {
+            i++;
+        }
         else if (a[i] < b[i])
         {
             printf("A is smaller");
@@ -33,10 +37,6 @@ int main()
         {
             printf("B is smaller");
             break;
-        }
-        else
-        {
-            i++;
         }
     }
 
