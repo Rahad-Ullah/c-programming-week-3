@@ -5,9 +5,9 @@ int main()
     static char str[10000001];
     scanf("%s", str);
 
-    int arr['z' + 1] = {0};
+    int arr[123] = {0};
 
-    for (int i = 0; i <= strlen(str); i++)
+    for (int i = 0; i < strlen(str); i++)
     {
         arr[(unsigned char)str[i]]++;
     }
